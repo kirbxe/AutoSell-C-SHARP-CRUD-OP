@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\wwwroot\\js\\requests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\wwwroot\\js\\requests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\bd_autosell.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\bd_autosell.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\controllers\\clientcarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\controllers\\clientcarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\models\\clientcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\models\\clientcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\cars\\addclientwithcarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\cars\\addclientwithcarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\cars\\clientcarsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\cars\\clientcarsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\cars\\addclientwithcarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\cars\\addclientwithcarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|a:\\dev_files\\midis-files\\\u043F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\autosellcourses\\autosellcourses\\appdata\\autosellcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7C1886-0E03-4E7B-939D-D4687315239B}|AutoSellCourses\\AutoSellCourses.csproj|solutionrelative:autosellcourses\\appdata\\autosellcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 8,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "AutoSellCourses\\wwwroot\\js\\site.js",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "AutoSellCourses\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-29T14:08:47.648Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BD_AUTOSELL.sql",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\BD_AUTOSELL.sql",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\BD_AUTOSELL.sql",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\BD_AUTOSELL.sql",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\BD_AUTOSELL.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-13T12:21:05.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddClientWithCarRequest.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Cars\\AddClientWithCarRequest.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\Cars\\AddClientWithCarRequest.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Cars\\AddClientWithCarRequest.cs",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\Cars\\AddClientWithCarRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T20:46:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutoSellContext.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\AutoSellContext.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\AutoSellContext.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\AutoSellContext.cs",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\AutoSellContext.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T20:46:05.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\Models\\Client.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Models\\Client.cs",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\Models\\Client.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T20:45:17.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "requests.js",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\wwwroot\\js\\requests.js",
+              "RelativeDocumentMoniker": "AutoSellCourses\\wwwroot\\js\\requests.js",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\wwwroot\\js\\requests.js",
+              "RelativeToolTip": "AutoSellCourses\\wwwroot\\js\\requests.js",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-12T15:17:15.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "AutoSellCourses\\wwwroot\\index.html",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\wwwroot\\index.html",
+              "RelativeToolTip": "AutoSellCourses\\wwwroot\\index.html",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAAACYBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-12T20:49:48.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\Controllers\\ClientController.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "AutoSellCourses\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T18:38:49.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddClientWithCarResponse.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Cars\\AddClientWithCarResponse.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\Cars\\AddClientWithCarResponse.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Cars\\AddClientWithCarResponse.cs",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\Cars\\AddClientWithCarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T18:38:06.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientCar.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Models\\ClientCar.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\Models\\ClientCar.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Models\\ClientCar.cs",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\Models\\ClientCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:46:28.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientCarsController.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\Controllers\\ClientCarsController.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\Controllers\\ClientCarsController.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\Controllers\\ClientCarsController.cs",
+              "RelativeToolTip": "AutoSellCourses\\Controllers\\ClientCarsController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T21:25:42.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientCarsResponse.cs",
+              "DocumentMoniker": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Cars\\ClientCarsResponse.cs",
+              "RelativeDocumentMoniker": "AutoSellCourses\\AppData\\Cars\\ClientCarsResponse.cs",
+              "ToolTip": "A:\\Dev_Files\\Midis-Files\\\u041F\u0430\u043F\u043A\u0430 \u043F\u0440\u043E\u0435\u043A\u0442\u0430 3 \u043A\u0443\u0440\u0441 \u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\AutoSellCourses\\AutoSellCourses\\AppData\\Cars\\ClientCarsResponse.cs",
+              "RelativeToolTip": "AutoSellCourses\\AppData\\Cars\\ClientCarsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T20:25:26.612Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

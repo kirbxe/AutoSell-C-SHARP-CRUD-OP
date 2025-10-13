@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>AutoSell - Продажа подержанного авто</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-block">
+        <div class="logo-block">
+          <img
+            style="width: 40px; height: 40px; margin-right: 5px"
+            src="img/icons8-тесла-модель-3-50 (1).png"
+            alt=""
+          /><span style="color: #d4af37">Luxe</span>-Sell
+        </div>
+        <div class="navbar-block">
+          <ul class="nav-list">
+            <li class="nav-element"><a href="#info-block">Главная</a></li>
+            <li class="nav-element"><a href="#services-content">Услуги</a></li>
+            <li class="nav-element">
+              <a href="#catalog-frame">Каталог авто</a>
+            </li>
+            <li class="nav-element">
+              <a href="#about-company-frame">О компании</a>
+            </li>
+            <li class="nav-element"><a href="#footer-frame">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="btn-add-car-block">
+          <button onclick="showFormPopUp()" class="btn-add-car">
+            <img
+              style="width: 25px; margin-right: 5px"
+              src="img/icons8-плюс-50.png"
+              alt=""
+            />Продать свой транспорт
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="info-block" id="info-block">
+          <div class="title-main">Проверено. Одобрено. Ваше.</div>
+          <div class="description-main">
+            Подберем лучший вариант специально для вас с вторичного рынка!
+          </div>
+          <div class="btn-main">
+            <button class="btn-main-container">Перейти к каталогу</button>
+          </div>
+        </div>
+      </div>
+      <div class="services-block">
+        <div class="services-content" id="services-content">
+          <div class="services-title title">Наши услуги</div>
+          <div class="services-cards">
+            <div class="service-card">
+              <div class="service-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 7V3M16 7V3M7 11H17M5 21H19C20.1046 21 21 20.1046 21 19V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V19C3 20.1046 3.89543 21 5 21Z"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 18L9 15M12 18L15 15M12 18V12"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">Trade-in</h3>
+              <p class="service-subtitle">Обменяйте ваш авто с выгодой</p>
+              <ul class="service-features">
+                <li>Быстрая оценка за 15 минут</li>
+                <li>Доплата сразу в день обращения</li>
+                <li>Без скрытых комиссий</li>
+              </ul>
+              <!-- <button class="service-button">Оценить авто онлайн</button> -->
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 12V13"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M12 11V12"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">Страхование (КАСКО/ОСАГО)</h3>
+              <p class="service-subtitle">Будьте под защитой!</p>
+              <ul class="service-features">
+                <li>Помощь в оформлении.</li>
+                <li>Лучшие тарифы от партнеров-страховщиков.</li>
+              </ul>
+              <!-- <button class="service-button">Оценить авто онлайн</button> -->
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 18H6C4.89543 18 4 17.1046 4 16V12C4 10.8954 4.89543 10 6 10H18C19.1046 10 20 10.8954 20 12V16C20 17.1046 19.1046 18 18 18Z"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M20 10H16V6C16 4.89543 16.8954 4 18 4H20C21.1046 4 22 4.89543 22 6V10Z"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="7"
+                    cy="18"
+                    r="2"
+                    stroke="#1F2937"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="17"
+                    cy="18"
+                    r="2"
+                    stroke="#1F2937"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">Продажа автомобилей с пробегом</h3>
+              <p class="service-subtitle">Лучший ассортимент только у нас!</p>
+              <ul class="service-features">
+                <li>Большой выбор проверенных авто.</li>
+                <li>Гарантия технической исправности (3-6 месяцев).</li>
+              </ul>
+              <!-- <button class="service-button">Оценить авто онлайн</button> -->
+            </div>
+          </div>
+          <button class="service-button">Продать свое авто</button>
+        </div>
+      </div>
+      <div class="catalog-car-block">
+        <div class="catalog-frame" id="catalog-frame">
+          <div class="catalog-title title">Каталог автомобилей</div>
+          <div class="frame-cards" id="frame-cards">
+<!-- <div class="car-card">
+      <div class="picture-car"></div>
+      <div class="car-name">fthfthfthtfhfthfthfthtfhfth</div>
+      <div class="car-characteristics">
+        <div class="mileage-car">
+          <img
+            class="icon-car-characterictics"
+            src="img/tachometer(1).png"
+            alt=""
+          />
+          fthfthfthfthfth
+        </div>
+        <div class="car-transmission-type">
+          <img
+            class="icon-car-characterictics"
+            src="img/drivetrain(1).png"
+            alt=""
+          />
+          fthfthfthfthfthfthfthfthtfh
+        </div>
+        <div class="car-engine-capacity">
+          <img
+            class="icon-car-characterictics"
+            src="img/car-engine(1).png"
+            alt=""
+          />
+         gyjtgyjjfyj
+        </div>
+        <div class="car-description">
+          fthfthfthfthfthfthfthfthfthtfh fthfthfth ft hfth fth fth
+        </div>
+        <div class="car-price">
+        fthfthfthfth
+        </div>
+      </div>
+      <div class="card-btns">
+        <div class="sell-btn-card">
+          <button>Купить авто</button>
+        </div>
+        <div class="credit-btn-card">
+          <button>Оформить кредит</button>
+        </div>
+      </div>
+      <div class="price-car"></div>
+    </div> -->
+        </div>
+      </div>
+     </div>
+      <div class="about-company-block">
+        <div class="about-company-frame" id="about-company-frame">
+          <div class="about-company-block-title title">О нашей компании</div>
+          <div class="about-company-main-content">
+            <div class="text-about-company-frame">
+              <div class="about-company-title">О команде AutoSell</div>
+              <div class="about-company-text">
+                AutoSell&nbsp;&mdash; это профессиональный автодилер
+                с&nbsp;безупречной репутацией, специализирующийся
+                на&nbsp;продаже качественных подержанных автомобилей.
+                Мы&nbsp;работаем на&nbsp;рынке с&nbsp;20XX года
+                и&nbsp;за&nbsp;это время помогли тысячам клиентов найти надёжное
+                транспортное средство по&nbsp;справедливой цене.
+              </div>
+            </div>
+            <div class="picture-carousel-frame">
+              <button class="carousel-btn" onclick="decrementSlide()">
+                &#10094;
+              </button>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/autosalon.jpg" alt="autosalon" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/autocheck.jpg" alt="autocheck" />
+                </div>
+              </div>
+              <button class="carousel-btn" onclick="incrementSlide()">
+                &#10095;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pop-up-conteiner" id="pop-up-conteiner">
+        <div class="pop-up-frame">
+          <div class="pop-up-close" id="pop-up-close">
+              <span class="pop-up-close-first-line"></span>
+              <span class="pop-up-close-second-line"></span>
+            </div>
+          <div class="pop-up-content">
+            <div class="title-pop-up">
+              Заполнение данных
+            </div>
+            <div class="forms-frame-pop-up">
+              <div class="forms-data"><form class="form-data">
+                <div class="title-form-data">
+                  Персональные данные
+                </div>
+                <div class="form-inputs-data">
+                    <div class="input-item-pop-up">
+                      ФИО:
+                    <input id="fio" class="input-form-pop-up" type="text"></div>
+                    Номер телефона:
+                    <input id="number-phone" class="input-form-pop-up" type="tel">
+                    Город:
+                    <input id="city" class="input-form-pop-up" type="text">
+                    Адрес:
+                    <input id="address" class="input-form-pop-up" type="text">
+                </div>
+              </form>    
+              <form class="form-data">
+                <div class="title-form-data">
+                  Данные автомобиля
+                </div>
+                <div class="form-inputs-data">
+                      Название автомобиля:
+                    <input id="car-name" class="input-form-pop-up" placeholder="Бренд Модель" type="text">
+                    Пробег:
+                    <input id="car-mileage" class="input-form-pop-up" placeholder="0000 км"  type="text">
+                    Год выпуска:
+                    <input id="car-year" class="input-form-pop-up" placeholder="ГГГГ г."  type="text">
+                    Описание:
+                    <textarea id="car-description" class="input-form-pop-up description" type="text"></textarea>
+                    Цвет авто:
+                    <input id="car-color" class="input-form-pop-up" type="text">
+                    Вид коробки передач:
+                    <select class="input-form-pop-up" name="" id="transmission-type">s
+                      <option value=""></option>
+                      <option value="Механика">Механика</option>
+                      <option value="Автомат">Автомат</option>
+                    </select>
+                    Лошадиные силы: 
+                    <input id="car-power" class="input-form-pop-up" placeholder="0.0 л (0 л.с.)" type="text">
+                    Цена:
+                    <input class="input-form-pop-up" id="car-price" type="text">
+                </div>
+              </form>
+            </div>
+            <div class="submit-btn-container">
+              <button onclick="addClientWithCar()" class="btn-add-car submit-btn" type="submit" id="submit-input">Добавить в базу</button>
+            </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-frame" id="footer-frame">
+        <div class="logo-block">
+          <img
+            style="width: 40px; height: 40px; margin-right: 5px"
+            src="img/icons8-тесла-модель-3-50 (1).png"
+            alt=""
+          /><span style="color: #d4af37">Luxe</span>-Sell
+        </div>
+        <div class="footer-nav">
+          <nav>
+            <ul class="footer-navlist">
+              <li class="nav-element"><a href="#info-block">Главная</a></li>
+              <li class="nav-element">
+                <a href="#services-content">Услуги</a>
+              </li>
+              <li class="nav-element">
+                <a href="#catalog-frame">Каталог авто</a>
+              </li>
+              <li class="nav-element">
+                <a href="#about-company-frame">О компании</a>
+              </li>
+              <li class="nav-element"><a href="#footer-frame">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="social-btns">
+          <a class="social-btn" href="#"
+            ><img src="img/telegram(1).png" alt=""
+          /></a>
+          <a class="social-btn" href="#"><img src="img/vk.png" alt="" /></a>
+          <a class="social-btn" href="#"
+            ><img src="img/facebook.png" alt=""
+          /></a>
+        </div>
+        <div class="footer-copyright">
+          © Luxe-Sell. Все права защищены.
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/site.js"></script>
+     <script type="text/javascript" src="js/requests.js"></script>
+        <script type="text/javascript">
+            getClientCars();
+      </script>
+  </body>
+</html>

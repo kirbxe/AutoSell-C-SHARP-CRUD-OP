@@ -1,0 +1,302 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AutoSellCourses",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/client": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/clientcars": {
+      "get": {
+        "tags": [
+          "ClientCars"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/clientcars/{id}": {
+      "delete": {
+        "tags": [
+          "ClientCars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/clientcars/with-clients": {
+      "post": {
+        "tags": [
+          "ClientCars"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddClientWithCarRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddClientWithCarRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddClientWithCarRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddClientWithCarRequest": {
+        "type": "object",
+        "properties": {
+          "client": {
+            "$ref": "#/components/schemas/Client"
+          },
+          "clientCar": {
+            "$ref": "#/components/schemas/ClientCar"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Client": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientLastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientMiddleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientTown": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientCars": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ClientCar"
+            },
+            "nullable": true
+          },
+          "contracts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Contract"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClientCar": {
+        "type": "object",
+        "properties": {
+          "clientcarId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "carBrand": {
+            "type": "string",
+            "nullable": true
+          },
+          "mileage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "manufactureDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorCar": {
+            "type": "string",
+            "nullable": true
+          },
+          "transmissionType": {
+            "type": "string",
+            "nullable": true
+          },
+          "engineCapacity": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "client": {
+            "$ref": "#/components/schemas/Client"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Contract": {
+        "type": "object",
+        "properties": {
+          "contractId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dillerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "contractDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "carBrand": {
+            "type": "string",
+            "nullable": true
+          },
+          "carPhoto": {
+            "type": "string",
+            "nullable": true
+          },
+          "manufactureDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "mileage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "saleDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "salePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "commission": {
+            "type": "number",
+            "format": "double"
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "client": {
+            "$ref": "#/components/schemas/Client"
+          },
+          "diller": {
+            "$ref": "#/components/schemas/Diller"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Diller": {
+        "type": "object",
+        "properties": {
+          "dillersId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dillersLastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dillersName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dillersMiddleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dillersTown": {
+            "type": "string",
+            "nullable": true
+          },
+          "dillersAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "dillersNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "contracts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Contract"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

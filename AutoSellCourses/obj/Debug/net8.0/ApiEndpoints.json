@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "AutoSellCourses.Controllers.ClientController",
+    "Method": "GetClient",
+    "RelativePath": "api/client",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoSellCourses.Controllers.ClientCarsController",
+    "Method": "Get",
+    "RelativePath": "api/clientcars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoSellCourses.Controllers.ClientCarsController",
+    "Method": "DeleteClientCars",
+    "RelativePath": "api/clientcars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoSellCourses.Controllers.ClientCarsController",
+    "Method": "AddClientWithCars",
+    "RelativePath": "api/clientcars/with-clients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AutoSellCourses.AppData.Cars.AddClientWithCarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
