@@ -82,6 +82,41 @@
           }
         }
       }
+    },
+    "/api/contract/stats": {
+      "get": {
+        "tags": [
+          "Contracts"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/contract/{id}": {
+      "post": {
+        "tags": [
+          "Contracts"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -208,11 +243,12 @@
           },
           "dillerId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "contractDate": {
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "carBrand": {
             "type": "string",
@@ -224,7 +260,7 @@
           },
           "manufactureDate": {
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "mileage": {
             "type": "integer",

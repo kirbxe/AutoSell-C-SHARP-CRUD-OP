@@ -169,4 +169,4 @@ A:\Dev_Files\Midis-Files\Папка проекта 3 курс курсовая\A
 A:\Dev_Files\Midis-Files\Папка проекта 3 курс курсовая\AutoSellCourses\AutoSellCourses\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 A:\Dev_Files\Midis-Files\Папка проекта 3 курс курсовая\AutoSellCourses\AutoSellCourses\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 A:\Dev_Files\Midis-Files\Папка проекта 3 курс курсовая\AutoSellCourses\AutoSellCourses\obj\Debug\net8.0\staticwebassets.build.json.cache
-A:\Dev_Files\Midis-Files\Папка проекта 3 курс курсовая\AutoSellCourses\AutoSellCourses\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+A:\Dev_Files\Midis-Files\Папка проекта 3 курс курсовая\AutoSellCourses\AutoSellCourses\obj\Debug\net8.0\AutoSellCourses.sourcelink.json

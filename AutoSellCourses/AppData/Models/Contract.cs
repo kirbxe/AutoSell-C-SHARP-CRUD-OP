@@ -9,15 +9,15 @@ public partial class Contract
 
     public int ClientId { get; set; }
 
-    public int DillerId { get; set; }
+    public int? DillerId { get; set; }
 
-    public DateOnly ContractDate { get; set; }
+    public DateTime ContractDate { get; set; }
 
     public string CarBrand { get; set; } = null!;
 
     public string? CarPhoto { get; set; }
 
-    public DateOnly ManufactureDate { get; set; }
+    public DateTime ManufactureDate { get; set; }
 
     public int Mileage { get; set; }
 
@@ -29,7 +29,7 @@ public partial class Contract
 
     public string? Notes { get; set; }
 
-    public virtual Client Client { get; set; } = null!;
+    public virtual Client? Client { get; set; } = null!;
 
-    public virtual Diller Diller { get; set; } = null!;
+    public virtual Diller? Diller { get; set; } = null!;
 }

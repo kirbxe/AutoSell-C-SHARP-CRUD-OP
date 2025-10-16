@@ -15,6 +15,7 @@
 
   /* Fonts */
   --font-Montserrat: "Montserrat", sans-serif;
+  --font-Inter: 'Inter';
 
   /* Sizes */
   --main-title: 60px;
@@ -24,11 +25,16 @@
   --card-description-size: 14px;
   --noResult: 25px;
   --catalog-card-title-size: 22px;
+  --stats-title: 35px;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter.ttf');
 }
 
 
 * {
-  font-family: var(--font-Montserrat);
+  font-family: var(--font-Inter);
   scroll-behavior: smooth;
 }
 .title {
@@ -671,11 +677,64 @@ font-weight: 600;
 }
 .submit-btn{
   width: 250px;
+  text-align:center;
 }
 .submit-btn-container{
 margin-top: 25px;
 display: flex;
 justify-content: center;
+
+}
+
+.statistics-block{
+
+  background-color: var(--light-gray-graphit);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+
+}
+.statistics{
+
+background-color: var(--silver-color);
+height: 200px;
+width: 1200px;
+border-radius: 50px;
+padding: 20px 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.stats-info{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.stats-content{
+padding: 50px 50px;
+display: flex;
+justify-content: center;
+gap: 50px;
+
+}
+.stats-info-title{
+
+  font-size: 25px;
+
+}
+.stats-info-count{
+
+  font-size: 20px;
+
+}
+.title-stats{
+
+  font-size: var(--stats-title);
 
 }
 

@@ -23,7 +23,13 @@ namespace AutoSellCourses.Controllers
                 .Select(client => new
                 {
                     id = client.ClientId,
-                    name = client.ClientName
+                    lastname = client.ClientLastName,
+                    name = client.ClientName,
+                    middlename = client.ClientMiddleName,
+                    town = client.ClientTown,
+                    address = client.ClientAddress,
+                    number = client.ClientNumber
+                   
                 }
                 ).ToList();
             if(clients is null || clients.Count == 0)
